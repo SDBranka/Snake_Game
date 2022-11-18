@@ -1,4 +1,4 @@
-# Habit Tracker
+# Snake Game
 
 ##### Table of Contents
 
@@ -9,27 +9,27 @@
 ---
 
 <p float="center">
-    <img src="https://github.com/SDBranka/Habit_Tracker/blob/main/Resources/Screenshot0.png" width=45% alt="graph one" />
-    <img src="https://github.com/SDBranka/Habit_Tracker/blob/main/Resources/Screenshot1.png" width=45% alt="graph two" />
+    <img src="https://github.com/SDBranka/Snake_Game/blob/main/Resources/Screenshot%202022-11-18%20120357.png" width=45% alt="gameplay image"/>
 </p>
 
 ## Description
 
-This app assists a user in building new habits by tracking the frequency of an activity.
-
-- The graph and data for this project may be viewed at https://pixe.la/v1/users/testhabittracker/graphs/graph1.html
+Version 1 of the Snake Game. 
+Snake can move around the screen.
 
 ##### Controls
 
-- to run this app you will need to update the USERNAME, TOKEN, and GRAPH_ID variables 
+- The UP keyboard button will turn the snake North 
+- The DOWN keyboard button will turn the snake South
+- The RIGHT keyboard button will turn the snake East
+- The LEFT keyboard button will turn the snake West 
 
-
+*Note: The snake cannot turn back upon itself
 
 ##### Technologies
 
 - Python
-- API requests
-- Pixela
+- Turtle module
 - Visual Studio
 
 ---
@@ -42,16 +42,10 @@ Download or clone this repository to your desktop. Run main.py in an appropriate
 
 ## References
 
-##### APIs
-- Pixela
-https://pixe.la/
-
-- This Pixela account
-https://pixe.la/@testhabittracker
 
 ##### Continuing Work on
 
 - https://github.com/SDBranka/_100DOP_Exercises
 
 \
-[Back To The Top](#habit-tracker)
+[Back To The Top](#snake-game)
