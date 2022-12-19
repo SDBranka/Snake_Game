@@ -42,7 +42,6 @@ Download or clone this repository to your desktop. Run main.py in an appropriate
 
 ## References
 
-
 ##### Continuing Work on
 
 - https://github.com/SDBranka/_100DOP_Exercises

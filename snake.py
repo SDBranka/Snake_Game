@@ -1,4 +1,6 @@
 from turtle import Turtle
+
+
 STARTING_POSITIONS = [(0, 0), (-20, 0), (-40, 0)]
 MOVE_DISTANCE = 20
 UP = 90
@@ -29,6 +31,9 @@ class Snake:
         self.head.forward(MOVE_DISTANCE)
 
     def up(self):
+        # if snake is not moving down it can move up so 
+        # that the snake cannot turn back on itself (coded 
+        # similarly for all directions) 
         if self.head.heading() != DOWN:
             self.head.setheading(UP)
 
